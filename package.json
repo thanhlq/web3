@@ -3,7 +3,10 @@
   "type": "module",
   "name": "@web3/all",
   "description": "Collections of web3 utiliies",
-  "repository": "https://github.com/thanhlq/web3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thanhlq/web3.git"
+  },
   "author": {
     "name": "Thanh LE",
     "email": "thanhlq@gmail.com"
@@ -45,5 +48,6 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "version": ""
 }
