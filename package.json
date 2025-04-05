@@ -1,0 +1,49 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "@web3/all",
+  "description": "Collections of web3 utiliies",
+  "repository": "https://github.com/thanhlq/web3",
+  "author": {
+    "name": "Thanh LE",
+    "email": "thanhlq@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "pnpm": ">=8"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "build:watch": "turbo run build:watch",
+    "check:exports": "turbo run check:exports",
+    "clean": "turbo run clean",
+    "lint:ci": "biome ci",
+    "lint": "biome check --fix --unsafe",
+    "test": "pnpm -r --if-present test",
+    "test:unit": "pnpm -r --if-present test:unit",
+    "test:integration": "pnpm -r --if-present test:integration",
+    "prepare": "is-ci || husky"
+  },
+  "devDependencies": {
+    "@arethetypeswrong/cli": "^0.17.4",
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "22.14.0",
+    "husky": "^9.1.7",
+    "is-ci": "^4.1.0",
+    "lint-staged": "^15.5.0",
+    "rimraf": "^6.0.1",
+    "taze": "^19.0.4",
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.3",
+    "turbo": "^2.5.0",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8"
+  },
+  "pre-commit": "lint-staged",
+  "lint-staged": {
+    "*.{js,ts,cjs,mjs,md,json,jsonc}": "biome ci --no-errors-on-unmatched"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

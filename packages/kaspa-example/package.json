@@ -1,0 +1,25 @@
+{
+  "private": false,
+  "name": "@web3/kaspa-example",
+  "version": "0.1.0",
+  "description": "Kaspa Example",
+  "author": {
+    "name": "Thanh LE",
+    "email": "thanhlq@gmail.com"
+  },
+  "main": "kaspa.js",
+  "types": "kaspa.d.ts",
+  "files": [
+    "kaspa_bg.wasm",
+    "kaspa.js",
+    "kaspa.d.ts"
+  ],
+  "scripts": {
+    "clean": "rimraf build .turbo",
+    "test:unit": "vitest --workspace ../../vitest.workspace.ts --project unit run"
+  },
+  "dependencies": {
+    "@web3/kaspa": "workspace:*",
+    "@web3/common-utils": "workspace:*"
+  }
+}
