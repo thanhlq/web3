@@ -1,5 +1,5 @@
 {
-  "private": false,
+  "private": true,
   "name": "@web3/common-utils",
   "version": "0.1.0",
   "description": "so common web3 utiliies",
