@@ -1,11 +1,12 @@
 {
-  "private": true,
+  "private": false,
   "type": "module",
-  "name": "@web3/all",
+  "name": "@thanhlq/all",
   "description": "Collections of web3 utiliies",
+  "homepage": "https://github.com/thanhlq/web3#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thanhlq/web3.git"
+    "url": "git+https://github.com/thanhlq/web3.git"
   },
   "author": {
     "name": "Thanh LE",
@@ -30,6 +31,7 @@
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.17.4",
     "@biomejs/biome": "^1.9.4",
+    "@changesets/cli": "^2.28.1",
     "@types/node": "22.14.0",
     "husky": "^9.1.7",
     "is-ci": "^4.1.0",
@@ -43,11 +45,16 @@
     "vitest": "^2.1.8"
   },
   "pre-commit": "lint-staged",
-  "lint-staged": {
+  "lint-staged-error": {
     "*.{js,ts,cjs,mjs,md,json,jsonc}": "biome ci --no-errors-on-unmatched"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "version": ""
+  "version": "1.0.0",
+  "workspaces": {
+		"packages": [
+			"packages/*"
+		]
+	}
 }

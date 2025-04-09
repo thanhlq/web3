@@ -1,4 +1,4 @@
-import { sum } from '@web3/common-utils'
+import { sum } from '@thanhlq/common-utils'
 
 function main() {
   const arr = [1, 2, 3]

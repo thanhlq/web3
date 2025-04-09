@@ -1,7 +1,7 @@
 // import * as websocket from 'websocket'
 // import * as kaspa from 'kaspa';
 // globalThis.WebSocket = require('websocket').w3cwebsocket; // W3C WebSocket module shim
-const kaspa = require('@web3/kaspa');
+const kaspa = require('@thanhlq/kaspa');
 const { parseArgs } = require('./utils.js');
 const {
     RpcClient,

@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@web3/common-utils",
+  "name": "@thanhlq/common-utils",
   "version": "0.1.0",
   "description": "so common web3 utiliies",
   "author": {
@@ -15,13 +15,13 @@
   "exports": {
     ".": {
       "import": {
-        "@web3/source": "./src/index.ts",
+        "@thanhlq/source": "./src/index.ts",
         "types": "./build/index.d.mts",
         "import": "./build/index.mjs",
         "default": "./build/index.mjs"
       },
       "require": {
-        "@web3/source": "./src/index.ts",
+        "@thanhlq/source": "./src/index.ts",
         "types": "./build/index.d.ts",
         "import": "./build/index.js",
         "default": "./build/index.js"

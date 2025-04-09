@@ -1,7 +1,10 @@
 {
   "private": false,
-  "name": "@web3/kaspa",
-  "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "name": "@thanhlq/kaspa",
+  "version": "1.0.0",
   "description": "Kaspa Nodejs library",
   "author": {
     "name": "Thanh LE",

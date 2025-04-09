@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@web3/kaspa-example",
+  "name": "@thanhlq/kaspa-example",
   "version": "0.1.0",
   "description": "Kaspa Example",
   "author": {
@@ -19,7 +19,7 @@
     "test:unit": "vitest --workspace ../../vitest.workspace.ts --project unit run"
   },
   "dependencies": {
-    "@web3/kaspa": "workspace:*",
-    "@web3/common-utils": "workspace:*"
+    "@thanhlq/kaspa": "workspace:*",
+    "@thanhlq/common-utils": "workspace:*"
   }
 }

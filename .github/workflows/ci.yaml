@@ -29,8 +29,8 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: ["20.17.0"]
-        pnpm: ["9.15.0"]
+        node: ["22.14.0"]
+        pnpm: ["10.5.2"]
 
     name: "Build: ${{ matrix.os }}, Node.js ${{ matrix.node }}"
 

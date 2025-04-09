@@ -8,7 +8,7 @@ const {
     Encoding,
     NetworkId,
     Mnemonic,
-} = require('@web3/kaspa');
+} = require('@thanhlq/kaspa');
 
 /**
  * Helper function to parse command line arguments for running the scripts

@@ -1,4 +1,7 @@
-# @web3
+# @thanhlq
+
+Note: this project is a little messy, I'm working on it...
+
 
 ## Reference
 
@@ -16,7 +19,7 @@ Tested with:
 
 ## Table of Contents
 
-- [@web3](#web3)
+- [@thanhlq](#thanhlq)
   - [Reference](#reference)
   - [Table of Contents](#table-of-contents)
   - [What's Included](#whats-included)
@@ -25,6 +28,8 @@ Tested with:
   - [👤 Author](#-author)
   - [🦄 Show your support](#-show-your-support)
   - [📝 License](#-license)
+  - [Appendix](#appendix)
+    - [Publish the packages](#publish-the-packages)
 
 ## What's Included
 
@@ -60,9 +65,16 @@ Hi, I'm **thanhlq**, you can follow me on:
 
 Give a ⭐️ if this project helped or inspired you!
 
-Sponsor -> address: kaspa:qrkc87j8d3h56hm6eacgm7elqshpvkph72tk3n44494qqfjyg5nxsmj7ku0aj
-
 ## 📝 License
 
 Built with ❤️ by [Thanh LE](https://github.com/thanhlq).<br />
 This project is [MIT](https://github.com/thanhlq/web3/blob/main/LICENSE) licensed.
+
+## Appendix
+
+### Publish the packages
+
+```bash
+npx changeset
+npx changeset publish
+```
